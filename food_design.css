@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 20s infinite ease-in-out;
+}
+
+.nvbar{
+    background:bisque;
+    text-align: left;
+
+}
+
+.nvbar p{
+    font-size: 25px;
+    color:brown;
+    float:left;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 370px;
+    font-family: Lucida Handwriting;
+}
+
+.nvbar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.nvbar ul li{
+    inline-size: 140px;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.nvbar ul li a{
+    text-decoration: none;
+    color:brown;
+}
+
+.nvbar ul li:hover{
+    background:burlywood;
+}
+
+
+@keyframes change{
+    0%{
+        background-image: url(photos/dish1.jpg);
+    }
+    20%{
+        background-image: url(photos/dish2.jpg);
+    }
+    40%{
+        background-image: url(photos/dish3.jpeg);
+    }
+    60%{
+        background-image: url(photos/dish4.jpg);
+    }
+    80%{
+        background-image: url(photos/dish5.jpg);
+    }
+    100%{
+        background-image: url(photos/dish6.jpg);
+    }
+}

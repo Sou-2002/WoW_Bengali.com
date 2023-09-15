@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.nvbar{
+    background:blanchedalmond;
+    text-align: left;
+
+}
+
+.nvbar p{
+    font-size: 25px;
+    color:brown;
+    float:left;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 370px;
+    font-family: Lucida Handwriting;
+}
+
+.nvbar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.nvbar ul li{
+    inline-size: 140px;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.nvbar ul li a{
+    text-decoration: none;
+    color:brown;
+}
+
+.nvbar ul li:hover{
+    background: beige;
+}
